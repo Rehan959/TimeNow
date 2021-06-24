@@ -5,7 +5,7 @@ function Time_now(){
    var hr = dt.getHours();
    var min = dt.getMinutes();
  var sec = dt.getSeconds();
- if(hr >12){
+  if(hr >12){    
      hr = hr-12;
  }
 
@@ -24,14 +24,5 @@ function Time_now(){
 {
     sec ="0"+sec
 }
-
-// if(hr <=12){
-//     AM.innerHTML="AM"
-// }
-
-// if(hr >12){
-//     AM.innerHTML="PM"
-// }
-
  Time.innerHTML=`${hr}:${min}:${sec}`;
 }
