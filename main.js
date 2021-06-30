@@ -10,11 +10,11 @@ function Time_now(){
      AM="PM";
     }
  if(hr ==12){
-        AM="PM";e
+        AM="PM";
     }
     
     if(hr < 12){
-        AM="AM"
+        AM="AM";
     }
 
 
@@ -29,7 +29,7 @@ function Time_now(){
   
   if(min <10)
   {
-      min = "0"+min
+      min = "0"+min;
   } 
 
   if(hr>6 && hr<18){
@@ -40,7 +40,7 @@ function Time_now(){
 
  if(sec <10)
 {
-    sec ="0"+sec
+    sec ="0"+sec;
 }
  Time.innerHTML=`${hr}:${min}:${sec}  ${AM}`;
 
@@ -49,8 +49,8 @@ function Time_now(){
 
 function Night_Mode(){
     var Body = document.querySelector("#Body");
-    Body.style.background="black"
-    Body.style.color = "White"
+    Body.style.background="black";
+    Body.style.color = "White";
 }
 
 function Day_Mode (){
