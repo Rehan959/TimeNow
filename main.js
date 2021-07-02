@@ -9,6 +9,7 @@ function Time_now(){
  if(hr >12){
      AM="PM";
     }
+    
  if(hr ==12){
         AM="PM";
     }
